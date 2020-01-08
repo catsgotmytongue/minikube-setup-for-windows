@@ -1,0 +1,1 @@
+ `docker run -it --rm --volume /d/dev/temp/minikube-setup/ssl-scripts/scripts:/scripts:rw --volume /d/dev/temp/minikube-setup/ssl-scripts/output:/output:rw curtmullin/openssl bash`
