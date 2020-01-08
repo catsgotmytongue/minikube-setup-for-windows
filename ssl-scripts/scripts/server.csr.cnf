@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=US
+ST=OR
+L=Salem
+O=End Point
+OU=Testing Domain
+emailAddress=user@minikube.dev
+CN = minikube.dev
